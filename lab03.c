@@ -19,12 +19,6 @@
 *   - fork() crea un proceso hijo que hereda los descriptores
 *   - close() cierra los extremos no utilizados
 *
-*   Compilación:
-*       gcc -Wall -Wextra -O2 -o comunicacion_pipe comunicacion_pipe.c
-*
-*   Ejecución:
-*       ./comunicacion_pipe
-*
 ****************************************************/
 
 #include <stdio.h>
@@ -76,5 +70,6 @@ int main() {
 
     return 0;
 }
+
 
 
